@@ -49,8 +49,8 @@ fun TextCell(text: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
-    Row(horizontalArrangement = Arrangement.End,
-        modifier = modifier.size(width = 400.dp, height = 200.dp)) {
+    Row(horizontalArrangement = Arrangement.SpaceEvenly,
+        modifier = modifier.width(1000.dp)) {
         TextCell("1")
         TextCell("2")
         TextCell("3")
